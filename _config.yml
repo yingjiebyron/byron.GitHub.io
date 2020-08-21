@@ -1,28 +1,13 @@
-baseurl: "/byron.GitHub.io" # the subpath of your site, e.g. /blog
-url: "https://yingjiebyron.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Agency - Start Bootstrap Theme
+description: ''
+author: ''
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-sitemap
-
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
+sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
   style: compressed
 
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+assets_path: '' 
+
+collections: # Enables additional data structures 
+  projects: # Enables _projects
+
+theme: jekyll-theme-startbootstrap-agency

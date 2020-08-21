@@ -1,59 +1,306 @@
-<div align="center">
-	<h1>kross-jekyll-portfolio-template</h1>
-	<p> Kross jekyll Creative Portfolio Template ported from https://themefisher.com/products/kross-creative-portfolio-template/</p>
-	<a href="http://demo.themefisher.com/kross" >Live Preview</a>
-	<p>More free Bootstrap templates from <a href="https://themefisher.com/free-bootstrap-templates">Here</a>
-	<img src="https://user-images.githubusercontent.com/37659754/58154256-00627500-7c93-11e9-90c1-c145cb396902.gif"  width="100%" alt="kross portfolio template by themefisher">
-</div>
+# Jekyll Theme based on Startbootstrap Agency
 
-## Demo
+jekyll-theme-startbootstrap-agency is a Jekyll theme based on Start Bootstrap - Agency. You can see the [live demo](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/).
 
-| Homepage  | About  | Blog  | Portfolio  | Contact  |
-|---|---|---|---|---|
-| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+"Agency is a stylish, one page Bootstrap theme for agencies and small businesses. The design of Agency is based off of the Golden PSD Theme by Mathavan Jaya. You can download the PSD verison of this theme at FreebiesXpress.com."
 
-[Live Preview](http://demo.themefisher.com/kross).
+## Preview
+
+[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/)
+
+**[View Live Preview](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/)**
+
+## Background
+
+The objective of this project is to provide a Jekyll theme that is line by line perfect replica of “Startbootstrap - Agency” and at the same time to be so dynamic that can be used as a starting point for   child themes.
+
+Currently the only difference between “Startbootstrap – Agency” and jekyll-theme-startbootstrap-agency as served with the default content is found in the final `css/agency.min.css` which is normal since the scss is compiled by different engines.
+
+https://github.com/y7kim/agency-jekyll-theme has not been updated for more that a year and it is still based in Bootstrap 3
 
 
-## Setup
+## Features:
+- MIT License
+- Built to support the latest, stable releases of all major browsers and platforms.
+- Fully responsive HTML template created with Bootstrap 4
+- Custom collapsing navigation with active classes, smooth page scrolling, and responsive fallback stylings
+- Services section with CSS only circle icons by Font Awesome
+- Portfolio grid with modal window popup previews for portfolio item details
+- About section with a responsive timeline, special thanks to Bootsnipp
+- Team member section with circle profile images and social media links
+- Contact form with validation - just add your server url to the `js-url` at `_data/home.yml`
+- Footer with social links, copyright information, and other links
+- SCSS files included for deeper customization options
 
-To start your project, fork this repository
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+## Installation
 
-## Customize
+Add this line to your Jekyll site's `Gemfile`:
 
-Things you can customise in `_data/settings.yml` (no HTML/CSS):
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Exprerience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
+```ruby
+gem "jekyll-theme-startbootstrap-agency"
+```
 
-## Deployment
+And add this line to your Jekyll site's `_config.yml`:
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+```yaml
+theme: jekyll-theme-startbootstrap-agency
+```
 
-## Reporting Issues
+And then execute:
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll-portfolio-template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll-portfolio-template/issues/new)
+    $ bundle
 
-## Technical Support or Questions
+Or install it yourself as:
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+    $ gem install jekyll-theme-startbootstrap-agency
 
-## Licensing
+## Usage
 
-- Copyright 2019 Themefisher (https://themefisher.com/)
-- Licensed under MIT (https://github.com/themefisher/kross-jekyll-portfolio-template/blob/master/LICENSE.txt)
+**[Usage Example](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency-child)**
 
+`_config.yml`
+```
+title: [The title of your site]
+description: [A short description of your site's purpose]
+author: [The author of the website]
+
+sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
+  style: compressed # Minify css/agency.min.css
+
+collections: # Enables additional data structures 
+  projects: # Enables _projects
+```
+`assets/css/`
+- `agency.min.scss` Add any additional styling
+
+`assets/_scss/`
+- `_variables.scss`
+```
+$primary: [hexcode of the primary color] !default;
+```
+- `assets/_mixins.scss` Font Configuration
+- `assets/_masthead.scss` Master Header
+```
+ background-image: url('[Path to master header background image]');
+```
+- `assets/_contact.scss`
+```
+ background-image: url('[Path to contact section background image]');
+```
+`_data/`
+- `default.yml` Data used by the default layout
+```
+brand:
+  name: [Top left name]
+menu-string: [Collapsed menu text]
+
+nav: # Navbar links
+  - title: [Link title]
+    url: '[Link]'
+  ...
+  - title: [Link title]
+    url: '[Link]'
+
+copyright: [Copyright notice]
+
+social-buttons: # Footer social buttons
+  - icon: [Font awesome icon code]
+    url: '[Link]' 
+  ...
+  - icon: [Font awesome icon code]
+    url: '[Link]'
+
+quicklinks: # Footer links
+    - title: [Link title]
+    url: '[Link]'
+  ...
+  - title: [Link title]
+    url: '[Link]'
+
+modal: # Modal strings for l10n
+```
+- `home.yml` Data used by the homepage
+```
+intro: # Master header text
+
+services: # Services section 
+  heading: [Services Title]
+  subheading: [Services Subtile]
+  service: # List of services
+    - icon: [Font Awasome icon code]
+      heading: [Service Title]
+      text: [Service text]
+    ...
+    - icon: [Font Awasome icon code]
+      heading: [Service Title]
+      text: [Service text]
+
+
+portfolio: # portfolio section
+  heading: [Portfolio title]
+  subheading: [Portfolio subtitle]
+
+about: # About section
+  heading: [About title]
+  subheading: [About subtitle]
+  timeline: # List
+    - image: [Image path]
+      date: [Date]
+      title: [Title]
+      text: [Text]
+    ...
+    - image: [Image path]
+      date: [Date]
+      title: [Title]
+      text: [Text]
+
+  end1: [End bubble first line ]
+  end2: [End bubble second line ]
+  end3: [End bubble third line ]
+
+team:
+  heading: [Title] 
+  subheading: [Subtitle]
+  members: [List of members]
+    - name: [Member's name]
+      role: [Member's role]
+      img: [Member's image path]
+      social-buttons: [List of Member's Social Media profiles]
+        - icon: [Font Awasome icon code]
+          url: '[Link to Member's Social Media]' 
+        ...
+        - icon: [Font Awasome icon code]
+          url: '[Link to Member's Social Media]'
+
+    - name: [Member's name]
+      role: [Member's role]
+      img: [Member's image path]
+      social-buttons: [List of Member's Social Media profiles]
+        - icon: [Font Awasome icon code]
+          url: '[Link to Member's Social Media]' 
+        ...
+        - icon: [Font Awasome icon code]
+          url: '[Link to Member's Social Media]'
+
+  text: [Text under members list] 
+
+clients: # List of clients logos and links
+  - img: [Path to clients logo image]
+    url: '[Link to clients website]'
+  ...
+  - img: [Path to clients logo image]
+    url: '[Link to clients website]'
+
+contact: # Contact Section
+  heading: [Translateble string]
+  ... 
+  btn: [Translatable string]
+
+  js-url: '[Contact form target]'
+  js-success: '[Translatable string]'
+  js-error: '[Translatable string]' # Attention around " + firstName + "
+  js-error-min: '[Translatable string]' # Attention around "+i+"
+```
+`_layouts/`
+- `default.html` Default layout
+- `home.html` Home layout
+
+`assets/js/`
+- `contact_me.js` Contact form checker and submitter
+
+`_projects/` Directory storing project data
+- `*.md` Project data
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/issues . This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+The theme is setup just like a normal Jekyll site! To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Edit pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+## About
+
+jekyll-theme-startbootstrap-agency is an open source Jekyll theme based on [Start Bootstrap - Agency](https://github.com/BlackrockDigital/startbootstrap-agency) 
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2013-2018 Blackrock Digital LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
+
+Start Bootstrap - Agency is based on the [Bootstrap](https://github.com/twbs/bootstrap) framework.
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2011-2018 Twitter, Inc.
+Copyright (c) 2011-2018 The Bootstrap Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
+
+## License
+
+Copyright 2018 Sotirios Vrachas. The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2018 Sotirios Vrachas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```

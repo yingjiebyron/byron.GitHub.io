@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
-gem "bundler"
-gem "jekyll"
-gem "jekyll-sitemap"
+# frozen_string_literal: true
+
+gem "jekyll-theme-startbootstrap-agency"
+source "https://rubygems.org"
+gemspec
