@@ -5,7 +5,7 @@ author: ''
 sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
   style: compressed
 
-assets_path: '' 
+assets_path: 'https://yingjiebyron.github.io/byron.GitHub.io' 
 
 collections: # Enables additional data structures 
   projects: # Enables _projects
