@@ -1,0 +1,43 @@
+url: https://yingjiebyron.github.io
+baseurl: /byron.GitHub.io/
+
+# Site settings
+title: Byron's profile and life
+email: yingjie_li@mymail.sutd.edu.sg
+description: "This is a 101 profile for the learning journey in data science and what-about for Byron (Yingjie)"
+
+
+# Team names, titles and social links
+people:
+- name: Byron (Yingjie) Li
+  pic: 1
+  position: Data science enthusiast
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://www.linkedin.com/in/yingjie-li-82a6b6160/
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/yingjiebyron
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 11 Bedok Reservoir View
+  - line: Singapore 478931
+
+# Build settings
+markdown: kramdown
+permalink: pretty
