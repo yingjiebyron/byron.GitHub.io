@@ -1,15 +1,46 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Netflix Recommender System Modelling
+subtitle: recommender system, ML
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: Apr 2020
+img: netflex.jpg
+thumbnail: recommender_system.jpeg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Apr 2020
+client: SUTD
+category: recommender system, ML, RBM, collaborative filtering
+problem_statement: 
+    <p align="left"> 
+        As the Netflix Prize challenge spurred a big boost in innovating the collaborative filtering based recommender engine with outstanding algorithms, the project dedicates to apply machine learning techniques under the same context on a user-movie matrix to provide custom recommendations to users based on what other users rated and latent correlations.</p>
 
+implementation: 
+    <p align="left">Datasets </p>
+        <ul> 
+            <li align="left">
+                 Training and validation data in a user-movie rating matrix format and collectively contain three features, namely movie id, user id and rating.
+        </ul>
+
+    <p align="left">Models </p>
+        <ul>
+            <li align="left">
+                Deployed a linear regression model with L2-regularization in order to get a baseline benchmark on the prediction performance.
+            </li> 
+            <li align="left">
+                Applied a Restricted Boltzmann Machines (RBM) model with a visible layer and a hidden layer to improve the results from LR baseline model.
+            </li>
+            <li align="left">
+                Finetuned the model with techniques such as adding user/movie biases, momentum and adaptive learning rate, early stopping and grid search to optimize modle hyperparameters.
+            </li> 
+        </ul>
+
+    <p align="left">Outcome </p>
+        <ul>
+            <li align="left">
+                The project ended with a hybridized model of both RBM and Ridge regression and improved the model performance by 17% in terms of RMSE error.
+            </li> 
+            <li align="left">
+                Able to predict the user ratings for each movie with a RMSE lower than 0.8 on average.
+            </li> 
+        </ul>
 ---

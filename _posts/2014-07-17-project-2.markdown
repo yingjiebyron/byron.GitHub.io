@@ -5,7 +5,7 @@ layout: default
 modal-id: 2
 date: Jul 2020-Aug 2020
 img: dog.jpg
-thumbnail: dog_gan.jpeg
+thumbnail: dog_gan.jpg
 alt: image-alt
 project-date: Jul 2020-Aug 2020
 client: SUTD
@@ -20,13 +20,13 @@ implementation:
         <ul> 
             <li align="left">
                 Re-categorized the dog images by labelling by color for less conditions and larger sample size.
-            </li> 
-            <li align="left"> 
+            </li>
+            <li align="left">
                 Cropped by bound box to get rid of environmental interferences and enforce more acurate learning for the network.
             </li> 
             <li align="left">
                 Transformed the dog images by flipping, rotating and changing pixel colors and balance the colored dogs training dataset to 8000 images each.
-            </li> 
+            </li>
         </ul>
 
     <p align="left">Models </p>
