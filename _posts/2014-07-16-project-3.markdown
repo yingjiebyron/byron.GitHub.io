@@ -4,8 +4,8 @@ subtitle: recommender system, ML
 layout: default
 modal-id: 3
 date: Apr 2020
-img: netflex.jpg
-thumbnail: recommender_system.jpeg
+img: recommender_system.jpeg
+thumbnail: netflex.jpg
 alt: image-alt
 project-date: Apr 2020
 client: SUTD
@@ -19,6 +19,7 @@ implementation:
         <ul> 
             <li align="left">
                  Training and validation data in a user-movie rating matrix format and collectively contain three features, namely movie id, user id and rating.
+            </li>
         </ul>
 
     <p align="left">Models </p>
