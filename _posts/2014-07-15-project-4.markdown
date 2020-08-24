@@ -5,7 +5,7 @@ layout: default
 modal-id: 4
 date: Jan 2020
 img: music_map.png
-thumbnail: music_network.jpg
+thumbnail: music_network.png
 alt: image-alt
 project-date: April 2014
 client: UT
