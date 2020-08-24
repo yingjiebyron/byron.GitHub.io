@@ -1,15 +1,35 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Shopee NDSC challenge
+subtitle: e-commerce, data science, computer vision
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: Feb 2019
+img: NDSC.jpg
+thumbnail: ecommerce.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Feb 2019
+client: Shopee
+category: e-commerce, data science, computer vision, AI
+problem_statement: 
+    <p align="left"> 
+        My internship at KPMG Data Science team mainly engaged in building an integrated real estate intelligence system that facilitated the stakeholders to valuate residential properties in Singapore with insights of comprehensive neighborhood analysis and demographic information.</p>
 
+implementation: 
+    <ul>
+        <li align="left">
+            Attened a one-week training workshop covering advanced data science topics such as Pytorch and Keras in image classification and deep learning models.
+        </li> 
+        <li align="left">
+            Participated in the challenge in Product Category Classification in a team of 4, aiming to build an image classifier to classify e-commerce products.
+        </li>
+        <li align="left">
+            Conduct comprehensive exploratory data analytics (EDA) to explore the data feature space and insights with over 60,000 data records.
+        </li> 
+        <li align="left">
+            Conducted NLP techniques on the product titles using NLTK packages to weight the words by TF-IDF and word2vec and thereby extracted relevant predictor of products' categories.
+        </li> 
+        <li align="left">
+            Built class-specific classifier by adding biases in logistic regression to guide the classifier to tune weights on specific categories to improved the prediction accuracy.
+        </li>
+    </ul>
 ---
