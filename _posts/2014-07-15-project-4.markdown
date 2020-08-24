@@ -28,7 +28,7 @@ implementation:
     <p align="left">Methods </p>
         <ul>
             <li align="left">
-                Preprocessed the data by feature engineering, one-hot encoding, normalization and genre categorization.
+                Preprocessed the data using PySpark by feature engineering, one-hot encoding, normalization and genre categorization.
             </li> 
             <li align="left">
                 Calculated the cosine similarity and adjusted pearson similarity with the factorized song-artist matrix.
