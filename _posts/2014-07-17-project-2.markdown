@@ -52,6 +52,8 @@ implementation:
             <li align="left">
                 Some sample generated dog images:.
             </li>
-            <img src="{{ site.baseurl }}/img/portfolio/dog_sample.png" class="img-responsive img-centered" alt="">
         </ul>
+    <div class="row">
+        <img src="{{ site.baseurl }}/img/portfolio/dog_sample.png" class="img-responsive img-centered" alt="">
+    </div>
 ---
