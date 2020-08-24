@@ -15,7 +15,6 @@ problem_statement:
         Generative Adversarial Networks (GANs) are an interesting framework in deep learning to capture the distribution of the training data for generation of new data based on the same distribution. I explored GAN models with different techniques to generate the most photorealistic fake dog images by colour as possible.</p>
 
 implementation: 
-
     <p align="left">Preprocessing & data augmentation </p>
         <ul> 
             <li align="left">
@@ -50,10 +49,8 @@ implementation:
                 Designed an interactive GUI for on-spot generation of dog images by inputing color labels using pre-trained GAN models.
             </li> 
             <li align="left">
-                Some sample generated dog images:.
+                Some sample generated dog images as shown below
             </li>
         </ul>
-    <div class="row">
-        <img src="{{ site.baseurl }}/img/portfolio/dog_sample.png" class="img-responsive img-centered" alt="">
-    </div>
+img_sample: dog_sample.png
 ---
