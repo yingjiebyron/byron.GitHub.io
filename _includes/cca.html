@@ -9,15 +9,15 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.pages %}
+            {% for page in site.pages %}
                 <div class="portfolio-flex-item portfolio-item">
-                    <a href="#ccaModal-{{ post.modal-id }}" class="cca-link" data-toggle="modal">
+                    <a href="#ccaModal-{{ page.modal-id }}" class="cca-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/cca/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        <img src="img/cca/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
                     </a>
                 </div>
             {% endfor %}

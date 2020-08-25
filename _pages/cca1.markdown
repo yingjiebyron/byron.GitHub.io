@@ -4,7 +4,7 @@ modal-id: 1
 date: May 2017 - Mar 2018
 img: tennis1.jpg
 img_num: 3
-img_prefix: "tennis"
+img_prefix: tennis
 alt: image-alt
 project-date: May 2017 - Mar 2018
 community: SUTD Tennis 5th Row
