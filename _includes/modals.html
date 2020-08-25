@@ -20,6 +20,7 @@
                             <h4 align="center">Implementations</h4>
                             <p>{{ post.implementation}}</p>
                             {% if post.img_sample %}<img src="{{ site.baseurl }}/img/portfolio/{{post.img_sample}}" class="img-responsive img-centered" alt="">{% endif %}
+                            {% if post.video %}<iframe width="420" height="315" src="{{post.video}}">{% endif %}</iframe>
                             <ul class="list-inline item-details">
                                 <!-- <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
