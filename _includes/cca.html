@@ -1,51 +1,25 @@
-<section id="cca">
-	<main class="content">
-		<section class="project">
-			<div class="container">
-                {% for page in site.pages %}
-				<article>
-					<span class="h2">Project Title</span>
-					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
-					</h1>
-					<span class="h2">Role</span>
-					{{ page.content }}
-					<div class="project-meta">
-						<span class="h2">Community</span>
-						<p>{{ page.project.community }}</p>
-						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
-						<span class="h2">Year</span>
-						<p>{{ page.agency.year }}</p>
-					</div>
-				</article>
-				<aside>
-					<ul>
-						{% for image in page.images %}
-						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-					</ul>
-                </aside>
-                {% endfor %}
-			</div>
-		</section>
-		<section class="project-navigation">
-			<div class="container">
-				{% if page.previous and page.previous.categories contains "projects" %}
-				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
-					<span class="h2">Previous</span>
-					<h2>{{ page.previous.project.title }}</h2>
-				</a>
-				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
-				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
-					<span class="h2">Next</span>
-					<h2>{{ page.next.project.title }}</h2>
-				</a>
-				{% endif %}
-			</div>
-		</section>
-	</main>
+<section id="portfolio">
+    <div class="container portfolio-flex-grid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Co-corricular Activities</h2>
+                <h3 class="section-subheading text-muted">Life's full to explore.</h3>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="portfolio-flex-row">
+            {% for post in site.pages %}
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#ccaModal-{{ post.modal-id }}" class="cca-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cca/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </section>
