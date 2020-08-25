@@ -1,6 +1,6 @@
 ---
 title: Credit Risk Digitalization
-subtitle: credit risk, banking
+subtitle: credit risk, banking, software dev
 layout: default
 modal-id: 1
 date: Jan 2020 - Aug 2020
@@ -9,7 +9,7 @@ thumbnail: capstone.png
 alt: image-alt
 project-date: Jan 2020 - Aug 2020
 client: Citi Bank
-category: Web Development, risk management, banking
+category: Web Development, risk management, banking, software dev
 problem_statement: 
     <p align="left"> 
         With constantly changing business climate and market sentiments, monitoring the financial capabilities of obligors are integral to a bank's operations. Our client conducts regular Earning Warning reviews to analyse data such as financial reports and industry news to assess company performance to determine if it warrants any reassessment of the client’s credit rating. The current EW process requires manual collection of data from various sources that is ultimately still insufficient, especially for private companies, for effective risk analysis. </p>
@@ -68,5 +68,5 @@ implementation:
                 To find more about our project https://capstone.sutd.edu.sg/projects/syncreact.
             </li>
         </ul>
-
+img_sample:
 ---

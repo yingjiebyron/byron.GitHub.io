@@ -1,0 +1,40 @@
+---
+title: Aviation Data Analytics Project
+subtitle: aviation, data analytics, simulation
+layout: default
+modal-id: 7
+date: Feb 2019
+img: flights.jpg
+thumbnail: airport.jpg
+alt: image-alt
+project-date: Feb 2019
+client: Shopee
+category: e-commerce, data science, computer vision, AI
+problem_statement: 
+    <p align="left"> 
+        Under the initiative and supervisorship of our ESD dean Prof. Jackson, the Undergradute Research Opportunities Programme(UROP) took aim to real-time simulate the fligt aviation data from ASEAN region and connection to other regions and thereby seek optimatization by further analysis.</p>
+
+implementation: 
+    <ul>
+        <li align="left">
+            Crawled flight route data from websites using R and Python to simulate a flight tracking program.
+        </li> 
+        <li align="left">
+            Co-Designed a database to represent flight trajectories including tables for waypoint and airport locations using MySQL Workbench.
+        </li>
+        <li align="left">
+            Formulated algorithms to translate and summarize surveillance data into flight trajectory data.
+        </li> 
+        <li align="left">
+            Wrote web-based interface to visualize trajectories and animate aircraft movements using Javascript on Cesium.
+        </li> 
+    </ul>
+    
+    <p align="left">Outcome </p>
+        <ul>
+            <li align="left">
+                Selected as the flagship UROP project of ESD pillar to showcase in SUTD Open House 2019. I was appointed as the student researcher representative to demo and explain the UI during the Open House.
+            </li> 
+        </ul>
+img_sample:
+---

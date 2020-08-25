@@ -32,4 +32,5 @@ implementation:
             Built class-specific classifier by adding biases in logistic regression to guide the classifier to tune weights on specific categories to improved the prediction accuracy.
         </li>
     </ul>
+img_sample:
 ---

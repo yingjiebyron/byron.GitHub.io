@@ -44,4 +44,5 @@ implementation:
                 Able to predict the user ratings for each movie with a RMSE lower than 0.8 on average.
             </li> 
         </ul>
+img_sample:
 ---

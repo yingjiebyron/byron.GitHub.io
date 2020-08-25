@@ -32,5 +32,5 @@ implementation:
             Conducted UAT to refine the features catering for business requirements and reported directly to cross-department stakeholders from all management levels
         </li>
     </ul>
-
+img_sample:
 ---

@@ -47,5 +47,5 @@ implementation:
                 Provided a solution of continous similartiy computation as compared to the binary similarity provided by the million song dataset, with a decent level of precision and recall result in the validation set.
             </li> 
         </ul>
-
+img_sample:
 ---
