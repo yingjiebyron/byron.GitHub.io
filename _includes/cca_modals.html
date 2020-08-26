@@ -1,6 +1,7 @@
  <!-- cca Modals -->
-{% for page in site.pages %}
-<div class="cca-modal modal fade" id="ccaModal-{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for post in site.posts %}
+{% if post.community %}
+<div class="cca-modal modal fade" id="ccaModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -12,28 +13,28 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ page.title }}</h2>
+                        <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
-                        {% if page.description %}
-                            <p>{{ page.description }}</p>
+                        {% if post.description %}
+                            <p>{{ post.description }}</p>
                         {% endif %}
-                        {% for i in range(1,page.img_num+1)}
-                        <img src="img/cca/{{ page.img_prefix }}{{ i }}.jpg" class="img-responsive img-centered" alt="{{ page.alt }}">
+                        {% for i in range(1,post.img_num+1)}
+                        <img src="img/cca/{{ post.img_prefix }}{{ i }}.jpg" class="img-responsive img-centered" alt="{{ post.alt }}">
                         {% endfor %}
                         <ul class="list-inline item-details">
-                            {% if page.community %}
-                                <strong><a>{{ page.community }}</a>
+                            {% if post.community %}
+                                <strong><a>{{ post.community }}</a>
                                 </strong>
                             {% endif %}
-                            {% if page.project-date %}
+                            {% if post.project-date %}
                                 <li>Date:
-                                    <strong><a>{{ page.project-date }}</a>
+                                    <strong><a>{{ post.project-date }}</a>
                                     </strong>
                                 </li>
                             {% endif %}
-                            {% if page.category %}
+                            {% if post.category %}
                                 <li>Service:
-                                    <strong><a>{{ page.category }}</a>
+                                    <strong><a>{{ post.category }}</a>
                                     </strong>
                                 </li>
                             {% endif %}
@@ -45,4 +46,5 @@
         </div>
     </div>
 </div>
+{% endif %}
 {% endfor %}
