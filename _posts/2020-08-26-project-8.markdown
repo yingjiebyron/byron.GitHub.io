@@ -6,6 +6,7 @@ modal-id: 8
 date: May 2017 - Mar 2018
 img: tennis1.jpg
 thumbnail: tennis1.jpg
+long_img: tennis_stitched.jpg
 alt: image-alt
 project-date: May 2017 - Mar 2018
 img_num: 3
