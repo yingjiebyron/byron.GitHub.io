@@ -13,6 +13,7 @@ client: SUTD
 img_prefix: tennis
 community: SUTD Tennis 5th Row
 category: Co-corricular Activities
-description: 
-<p>Actively attended training sessions and represented SUTD in Singapore University Games (SUniG). Joined the tennis student club Ludia during the exchange at University of Twente, where I had great time playing with friends from different countries during the weekly sessions.</p>
+description:
+    <p align="left">
+        Actively attended training sessions and represented SUTD in Singapore University Games (SUniG). Joined the tennis student club Ludia during the exchange at University of Twente, where I had great time playing with friends from different countries during the weekly sessions.</p>
 ---
