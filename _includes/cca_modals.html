@@ -18,12 +18,11 @@
                                 {% if post.description %}
                                     <p>{{ post.description }}</p>
                                 {% endif %}
-                                {% for i in range(2,post.img_num+1)}
-                                <img src="img/cca/{{ post.img_prefix }}{{ i }}.jpg" class="img-responsive img-centered" alt="{{ post.alt }}">
-                                {% endfor %}
+                                <!-- {% for i in range(2,post.img_num+1)}
+                                    <img src="img/cca/{{ post.img_prefix }}{{ i }}.jpg" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                {% endfor %} -->
                                 {% if post.video %}<iframe width="800" height="600" src="{{post.video}}">{% endif %}</iframe>
                                 <ul class="list-inline item-details">
-
                                     <li>Date:
                                         <strong><a>{{ post.project-date }}</a>
                                         </strong>
