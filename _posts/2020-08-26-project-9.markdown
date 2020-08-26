@@ -1,0 +1,34 @@
+---
+title: Weiqi (GO)
+subtitle: NIL
+layout: default
+modal-id: 9
+date: Aug 2018 - Feb 2020
+img: WQ1.jpg
+thumbnail: WQ1.jpg
+long_img: WQ_stitched.jpg
+alt: image-alt
+project-date: Aug 2018 - Feb 2020
+img_num: 3
+client: SUTD
+img_prefix: WQ
+community: SUTD Go Club 5th Row
+category: Co-corricular Activities
+description:
+    <p align="left">
+        My interest in Weiqi (GO) was spurred when I came across the news that the first AI machinery Alpha GO developed by Google beated the human world champion Lee Sedol. With my inquisitiveness in AI and exposure to courses like Game Theory and Optimization, I wanted to step into this strategic board game to know more about the theories and rationale behind the story.</p>
+    <p align="left">
+        I joined the Go Club where I made friends who are constantly inspiring, smart and helpful. Even though I am still on my way to improve my skills and knowledge in this complex game, I enjoy the learning process and how it inspires me to develop a forward-thinking ideology. It teaches me to think more of things like what's the effect and possibilities of each action. With my continued study in the reinforcement learning topic in AI, I found there is much more to learn about this game and its related frontiers.
+    <p align="left">commitment </p>
+        <ul> 
+            <li align="left">
+                Sourced and coordinated with the external sponsors and successfully secured a sponsorship of $5,000 funds. Went down to have meetings with sponsor companies and negotiated event orgnization requirements.
+            </li>
+            <li align="left">
+                Liaised internally and communicated with other varsity teams in local universities.
+            </li> 
+            <li align="left">
+                Planned and organized the 2nd Annual SG Collegiate Go Championship in SUTD in a team of 4.
+            </li>
+        </ul>
+---

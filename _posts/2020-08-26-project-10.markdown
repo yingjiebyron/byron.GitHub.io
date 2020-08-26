@@ -1,0 +1,22 @@
+---
+title: Muay Thai
+subtitle: Muay Thai
+layout: default
+modal-id: 10
+date: Aug 2018 - Feb 2020
+img: MT3.jpg
+thumbnail: MT3.jpg
+long_img: MT_stitched.jpg
+alt: image-alt
+project-date: Aug 2018 - Feb 2020
+img_num: 3
+client: SUTD
+img_prefix: MT
+community: SUTD Muay Thai 5th Row
+category: Co-corricular Activities
+description: 
+    <p align="left"> 
+        Generative Adversarial Networks (GANs) are an interesting framework in deep learning to capture the distribution of the training data for generation of new data based on the same distribution. I explored GAN models with different techniques to generate the most photorealistic fake dog images by colour as possible.</p>
+
+
+---

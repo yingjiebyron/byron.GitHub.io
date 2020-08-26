@@ -12,7 +12,7 @@ project-date: May 2017 - Mar 2018
 img_num: 3
 client: SUTD
 img_prefix: tennis
-community: SUTD Tennis 5th Row
+community: SUTD Tennis 5th Row, UT Ludia
 category: Co-corricular Activities
 description:
     <p align="left">
