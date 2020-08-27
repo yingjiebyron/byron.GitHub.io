@@ -3,12 +3,12 @@ title: Travel
 subtitle: Travel
 layout: default
 modal-id: 11
-date: Jul 1998
+date: "Jul 1998"
 img: travel.jpg
 thumbnail: travel2.jpg
 long_img: travel_stitched.jpg
 alt: image-alt
-project-date: Jul 1998
+project-date: "Jul 1998"
 fake_date: Lifetime journey
 img_num: 3
 client: 
