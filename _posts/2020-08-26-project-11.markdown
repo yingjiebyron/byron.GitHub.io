@@ -3,7 +3,7 @@ title: Travel
 subtitle: Travel
 layout: default
 modal-id: 11
-date: "Lifetime journey"
+date: 
 img: travel.jpg
 thumbnail: travel2.jpg
 long_img: travel_stitched.jpg
