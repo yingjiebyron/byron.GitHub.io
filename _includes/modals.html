@@ -22,8 +22,12 @@
                                 {% if post.video %}<iframe width="800" height="600" src="{{post.video}}">{% endif %}</iframe>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong><a>{{ post.project-date }}</a>
-                                        </strong>
+                                        {% if post.project-date %}
+                                            <strong><a>{{ post.project-date }}</a>
+                                            </strong>
+                                        {% else %}
+                                            <strong><a>{{ post.fake_date }}</a>
+                                            </strong>
                                     </li>
                                     <li>Community:
                                         <strong><a>{{ post.community }}</a>
