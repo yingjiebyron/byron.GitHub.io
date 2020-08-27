@@ -16,7 +16,9 @@ community: SUTD Muay Thai 5th Row
 category: Co-corricular Activities
 description: 
     <p align="left"> 
-        Generative Adversarial Networks (GANs) are an interesting framework in deep learning to capture the distribution of the training data for generation of new data based on the same distribution. I explored GAN models with different techniques to generate the most photorealistic fake dog images by colour as possible.</p>
+        Muay Thai, or referred to as 'Thai boxing', is a combat sport of Thailand that uses stand-up striking along with various clinching techniques. This discipline is known as the "art of eight limbs" as it is characterized by the combined use of fists, elbows, knees, and shins.</p>
+    <p align="left">
+        I actively participated in the weekly training sessions with our paid professional coach who was the national winner in this sport. I found the Muay Thai as a martial art help me build up energetic, concentrated spirit and also push my physical and mental limit when I felt almost exhausted.
 
 
 ---
