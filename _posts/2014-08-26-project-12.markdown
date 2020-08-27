@@ -5,7 +5,7 @@ layout: default
 modal-id: 12
 date: May 2018 - Aug 2018
 img: erp.png
-thumbnail: erp_thubnail.jpg
+thumbnail: erp_thumbnail.jpg
 alt: image-alt
 project-date: May 2018 - Aug 2018
 client: BizGo
