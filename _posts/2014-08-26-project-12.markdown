@@ -1,6 +1,6 @@
 ---
 title: Product Development Internship
-subtitle: ERP, SaaS startup, UX design, research 
+subtitle: ERP, SaaS startup, UX design, cloud, agile
 layout: default
 modal-id: 12
 date: May 2018 - Aug 2018
@@ -9,7 +9,7 @@ thumbnail: erp_thumbnail.jpg
 alt: image-alt
 project-date: May 2018 - Aug 2018
 client: BizGo
-category: ERP, SaaS startup, UX design, research, Cloud-operation
+category: ERP, SaaS startup, UX design, research, Cloud-operation, agile
 problem_statement: 
     <p align="left"> 
         Bizgo is a SaaS startup company that provides industry focused solutions for Micro SMEs in China, SEA, and India, leveraging cloud-based infrastructure. My internship at Bizgo mainly engaged in helping the team to coordinate and propose UI/UX improvement for the core ERP system for product development and iterative feature improvement.</p>
