@@ -8,7 +8,7 @@ img: travel.jpg
 thumbnail: travel2.jpg
 long_img: travel_stitched.jpg
 alt: image-alt
-project-date: Aug 2019 - Jan 2020
+project-date: Lifetime journey
 img_num: 3
 client: 
 img_prefix: travel
@@ -16,9 +16,9 @@ community: Soul and body
 category: Co-corricular Activities
 description: 
     <p align="left"> 
-        I believe to create a better world, one has to see it himself first. I love travelling to different places and roaming around a city that is completely alien to me. Travelling may let your heart settle and help you rethink what you care about in life and what to go for in long term.</p>
+        I believe to create a better world, one has to see it himself first. I love travelling to different places and roaming around a city that is completely alien to me. Travelling may let your heart settle and help you rethink what you care about in life and what to go for in long term.I enjoy reading books along the travel and get to make friends with people from different backgrounds.</p>
     <p align="left">
-        I enjoy reading books along the travel and get to make friends with people from different backgrounds. Being adventurous and stay global-minded is a truthly virtue. The world is yet to be explored!
+        Being adventurous and stay global-minded is a truthly virtue. The world is yet to be explored!
 
 
 ---
