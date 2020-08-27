@@ -19,7 +19,11 @@
                                     <p>{{ post.description }}</p>
                                 {% endif %}
                                 <img src="{{ site.baseurl }}/img/cca/{{ post.long_img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                                {% if post.video %}<iframe width="800" height="600" src="{{post.video}}">{% endif %}</iframe>
+                                {% if post.video %}
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="{{post.video}}" allowfullscreen></iframe>
+                                    </div>
+                                {% endif %}
                                 <ul class="list-inline item-details">
                                     <li>Date:
                                         <strong><a>{{ post.project-date }}</a>

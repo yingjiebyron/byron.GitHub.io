@@ -9,7 +9,7 @@ thumbnail: capstone.png
 alt: image-alt
 project-date: Jan 2020 - Aug 2020
 client: Citi Bank
-category: Web Development, risk management, banking, software dev
+category: Web Development, risk management, banking, regulatogry compliance
 problem_statement: 
     <p align="left"> 
         With constantly changing business climate and market sentiments, monitoring the financial capabilities of obligors are integral to a bank's operations. Our client conducts regular Earning Warning reviews to analyse data such as financial reports and industry news to assess company performance to determine if it warrants any reassessment of the client’s credit rating. The current EW process requires manual collection of data from various sources that is ultimately still insufficient, especially for private companies, for effective risk analysis. </p>
@@ -20,7 +20,7 @@ implementation:
     <p align="left">User Requirements Analysis </p>
         <ul> 
             <li align="left">
-                Interviewed with regional stokeholds understand, ideate and validate the use-cases and painpoints. 
+                Interviewed with regional stokeholds to understand, ideate and validate the use-cases and painpoints. 
             </li> 
             <li align="left"> 
                 Identified the in-place infrastructures and technical constraints to design compatible and aligned solutions for digital transformation.
@@ -49,10 +49,10 @@ implementation:
     <p align="left">User Acceptance Testing(UAT) </p>
         <ul> 
             <li align="left">
-                Interviewed and validated the user stories with stakeholders and stayed agile towards constant business requirement changes.
+                Validated the user stories with stakeholders and stayed agile towards constant business requirement changes.
             </li> 
             <li align="left">
-                Conducted automated testing with Selenium on frontend simulation and Flask Testing on backend endpoints.
+                Conducted automated testing with Selenium on frontend simulation and Flask Testing on backend endpoints to ensure the robustness of the system.
             </li>
         </ul>
 
