@@ -12,7 +12,7 @@ client: Shopee
 category: e-commerce, data science, computer vision, AI
 problem_statement: 
     <p align="left"> 
-        My internship at KPMG Data Science team mainly engaged in building an integrated real estate intelligence system that facilitated the stakeholders to valuate residential properties in Singapore with insights of comprehensive neighborhood analysis and demographic information.</p>
+        To make relevant products easily discoverable, one fundamental challenge is to accurately extract relevant information from large volume of products. The theme of the National Data Science Challenge 2019 is Product Information Extraction in the Wild - a challenge to extract insightful knowledge from large volumes of textual and visual data using Machine Learning Analytics. The challenge required to determine the category of a product given its image and title. Performance was be evaluated based on the accuracy of the classification results.</p>
 
 implementation: 
     <ul>
