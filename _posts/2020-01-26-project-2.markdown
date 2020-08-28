@@ -2,7 +2,7 @@
 title: GAN Models on Dog Image Generation
 subtitle: Computer vision, AI
 layout: default
-modal-id: 1
+modal-id: 2
 date: Jul 2020-Aug 2020
 img: dog.jpg
 thumbnail: dog_gan.jpg

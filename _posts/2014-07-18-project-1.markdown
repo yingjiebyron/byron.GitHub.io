@@ -1,0 +1,73 @@
+---
+title: Credit Risk Digitalization
+subtitle: credit risk, banking, software dev
+layout: default
+modal-id: 1
+date: Jan 2020 - Aug 2020
+img: syncreact.png 
+thumbnail: capstone.png 
+alt: image-alt
+project-date: Jan 2020 - Aug 2020
+client: Citi Bank
+category: Web Development, risk management, banking, regulatogry compliance
+problem_statement: 
+    <p align="left"> 
+        With constantly changing business climate and market sentiments, monitoring the financial capabilities of obligors are integral to a bank's operations. Our client conducts regular Earning Warning reviews to analyse data such as financial reports and industry news to assess company performance to determine if it warrants any reassessment of the client’s credit rating. The current EW process requires manual collection of data from various sources that is ultimately still insufficient, especially for private companies, for effective risk analysis. </p>
+
+implementation: 
+    <p align="left"> For this project, our team designed syncReact, an integrated system that automatically extracts and presents essential credit signals in a consolidated and timely manner along with insightful data visualisations to facilitate credit analysts’ ongoing credit risk reassessment of their borrowers.</p>
+
+    <p align="left">User Requirements Analysis </p>
+        <ul> 
+            <li align="left">
+                Interviewed with regional stokeholds to understand, ideate and validate the use-cases and painpoints. 
+            </li> 
+            <li align="left"> 
+                Identified the in-place infrastructures and technical constraints to design compatible and aligned solutions for digital transformation.
+            </li> 
+            <li align="left">
+                Designed the initial UI with Figma to visualize the functionality and UI logics.
+            </li> 
+        </ul>
+
+    <p align="left">Coding </p>
+        <ul>
+            <li align="left">
+                Led the backend software development to automate data sourcing by setting up REST APIs and integrating with MongoDB for analysis.
+            </li> 
+            <li align="left">
+                Used NLP techniques for media listening and news intelligence to monitor corporate credit risk for data comprehensiveness. 
+            </li>
+            <li align="left">
+                Used React.js to implement frontend UI with multi-layers of consolidated information.
+            </li>
+            <li align="left">
+                Conducted automated testing with Selenium on frontend simulation and Flask Testing on backend endpoints.
+            </li>
+        </ul>
+
+    <p align="left">User Acceptance Testing(UAT) </p>
+        <ul> 
+            <li align="left">
+                Validated the user stories with stakeholders and stayed agile towards constant business requirement changes.
+            </li> 
+            <li align="left">
+                Conducted automated testing with Selenium on frontend simulation and Flask Testing on backend endpoints to ensure the robustness of the system.
+            </li>
+        </ul>
+
+    <p align="left">Outcome </p>
+        <ul>
+            <li align="left">
+                Reduced 80% in time needed for the credit team to manually source risk signals.
+            </li> 
+            <li align="left">
+                One-stop system for the credit team to monitor, manage, and export information for EW process.
+            </li> 
+            <li align="left">
+                To find more about our project https://capstone.sutd.edu.sg/projects/syncreact.
+            </li>
+        </ul>
+img_sample:
+video: https://www.youtube.com/embed/w7JfaHCSb5o
+---

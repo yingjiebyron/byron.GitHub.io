@@ -10,7 +10,7 @@
             <div class="row">
             {% for post in site.posts %}
                 {% if post.implementation %}
-                    <div class="col-md-3 col-sm-6 grid-item">
+                    <div class="col-md-3 col-sm-6 grid-item order-{{ post.modal-id }}">
                         <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
