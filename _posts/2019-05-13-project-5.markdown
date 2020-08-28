@@ -1,0 +1,36 @@
+---
+title: Data science internship
+subtitle: NLP, visualization, ETL, real estate
+layout: default
+modal-id: 5
+date: May 2019- Aug 2019
+img: SGmap.png
+thumbnail: HDB.jpg
+alt: image-alt
+project-date: May 2019- Aug 2019
+client: Start Bootstrap
+category: NLP, visualization, ETL, real estate
+problem_statement: 
+    <p align="left"> 
+        My internship at KPMG Data Science team mainly engaged in building an integrated real estate intelligence system that facilitated the stakeholders to valuate residential properties in Singapore with insights of comprehensive neighborhood analysis and demographic information.</p>
+
+implementation: 
+    <ul>
+        <li align="left">
+            Automated data extraction process for property appraisal auditing using OCR, sentiment analysis and generated live report for a large appraisal database using Python, Tableau and Power BI. Saved approximately 70% time of manual work for data entry and extracting relevant information from various appraisal reports.
+        </li> 
+        <li align="left">
+            Realized an automated data gathering of real estate transactions from multiple open-sourced APIs by government agencies, and geocoded the entries to visualize on map with other insights.
+        </li>
+        <li align="left">
+            Designed and implemented an ETL workflow for local Points-of-Interst (PoI) database to steamline comprehensive neighbourhood analysis, which successfully incorporated as part of the extenstive in-house analytics tool.
+        </li> 
+        <li align="left">
+            Created an self-updating dashboard tool to visualise HDB and private residential property transaction movements using Python Pandas and Power BI, which facilitates the team to engage better with clients by more credible annual appraisal of assets.
+        </li> 
+        <li align="left">
+            Conducted UAT to refine the features catering for business requirements and reported directly to cross-department stakeholders from all management levels
+        </li>
+    </ul>
+img_sample:
+---

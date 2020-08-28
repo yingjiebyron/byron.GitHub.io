@@ -1,0 +1,56 @@
+---
+title: GAN Models on Dog Image Generation
+subtitle: Computer vision, AI
+layout: default
+modal-id: 2
+date: Jul 2020-Aug 2020
+img: dog.jpg
+thumbnail: dog_gan.jpg
+alt: image-alt
+project-date: Jul 2020-Aug 2020
+client: SUTD
+category: AI, Generative Adversarial Network
+problem_statement: 
+    <p align="left"> 
+        Generative Adversarial Networks (GANs) are an interesting framework in deep learning to capture the distribution of the training data for generation of new data based on the same distribution. I explored GAN models with different techniques to generate the most photorealistic fake dog images by colour as possible.</p>
+
+implementation: 
+    <p align="left">Preprocessing & data augmentation </p>
+        <ul> 
+            <li align="left">
+                Re-categorized the dog images by labelling by color for less conditions and larger sample size.
+            </li>
+            <li align="left">
+                Cropped by bound box to get rid of environmental interferences and enforce more acurate learning for the network.
+            </li> 
+            <li align="left">
+                Transformed the dog images by flipping, rotating and changing pixel colors and balance the colored dogs training dataset to 8000 images each.
+            </li>
+        </ul>
+
+    <p align="left">Models </p>
+        <ul>
+            <li align="left">
+                Used Deep Convolutional GAN (DCGAN) architecture as pretrained baseline model and imporved with Auxiliary Classifier GAN (ACGAN) as a deeper NN to learn more latent features of a dog's appearance.
+            </li> 
+            <li align="left">
+                Incorporated a Super-Resolution GAN (SRGAN) to refine the generated dog image resolution for more photorealistic results. 
+        </ul>
+
+    <p align="left">Outcome </p>
+        <ul>
+            <li align="left">
+                Improved over 20% as compared to baseline model in terms of MiFID score evaluation.
+            </li> 
+            <li align="left">
+                A sigificant increase in image quality in terms of PSNR socre for reconstructing high-resolution images of SRGAN model.
+            </li> 
+            <li align="left">
+                Designed an interactive GUI for on-spot generation of dog images by inputing color labels using pre-trained GAN models.
+            </li> 
+            <li align="left">
+                Some sample generated dog images as shown below
+            </li>
+        </ul>
+img_sample: dog_sample.png
+---
