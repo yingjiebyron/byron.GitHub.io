@@ -2,7 +2,7 @@
 title: Credit Risk Digitalization
 subtitle: credit risk, banking, software dev
 layout: default
-modal-id: 1
+modal-id: 2
 date: Jan 2020 - Aug 2020
 img: syncreact.png 
 thumbnail: capstone.png 
