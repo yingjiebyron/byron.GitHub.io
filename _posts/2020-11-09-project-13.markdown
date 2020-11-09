@@ -16,7 +16,7 @@ problem_statement:
 
 implementation: 
     <p align="left"> 
-       I wrote a blog about this project on Medium. To read the full article and insights analyzed:
+       I wrote a blog about this project on Medium. To read the full article and insights analyzed
        https://byronofficial98.medium.com/data-stories-for-u-s-election-2020-d324e3f6ac4c.</p>
 
 img_sample:
