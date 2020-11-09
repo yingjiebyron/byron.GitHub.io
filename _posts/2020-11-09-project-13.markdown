@@ -1,0 +1,23 @@
+---
+title: U.S. Election 2020 Data Analytics
+subtitle: Data visualization, data science, statistics
+layout: default
+modal-id: 13
+date: Nov 2020
+img: overview.png
+thumbnail: election.png
+alt: image-alt
+project-date: Nov 2020
+client: None
+category: Data visualization, Pandas, Qlik Sense, Statistics
+problem_statement: 
+    <p align="left"> 
+       The idea of applying data analytics for the United States 2020 Presidential Election was sparked when I picked up Qlik Sense, a powerful data visualization tool. “Nothing beats getting your hands dirty.” Even though I am not a very political person, I figure this is a great chance to challenge myself by applying and upskilling my newly honed knowledge. I started my work on 6th November, the third day since Election Day, while the world was much concerned and uncertain about what was going on with this race.</p>
+
+implementation: 
+    <p align="left"> 
+       I wrote a blog about this project on Medium. To read the full article and insights analyzed:
+       https://byronofficial98.medium.com/data-stories-for-u-s-election-2020-d324e3f6ac4c.</p>
+
+img_sample:
+---
