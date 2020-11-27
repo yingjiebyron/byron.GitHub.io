@@ -1,6 +1,6 @@
 ---
 title: U.S. Election 2020 Data Analytics
-subtitle: Data visualization, data science, statistics
+subtitle: Data viz., data science, statistics
 layout: default
 modal-id: 13
 date: Nov 2020
