@@ -1,0 +1,54 @@
+---
+title: Physical Climate Change Risk Reporting App
+subtitle: API, Web Dev, Cloud
+layout: default
+modal-id: 14
+date: Mar 2021
+img: overview.png
+thumbnail: climateChangeRisk.jpg
+alt: image-alt
+project-date: Nov 2020
+client: None
+category: REST API, Web Dev, CI/CD, Cloud, React.js
+problem_statement: 
+    <p align="left"> 
+       As a global investor, Temasek looks into sustainable growth and social impact for a better tomorrow. ESG investment management engages with external data vendor and portfolio companies to acquire insights of climate change risk on physical assets across the globe.
+       As the full stack developer, I worked on integrating the external API into a secure cloud platform Snowflake and develops a web interface for ESG team to be able to upload asset information and generate reports based on locations.</p>
+
+implementation: 
+    <p align="left"> Backend
+       <ul> 
+            <li align="left">
+                Node.js and TypeScript to build API services and controller for data parsing and interact with external whitelisted APIs to query location
+            </li>
+        </ul>
+    </p>
+    <p align="left"> Frontend
+       <ul> 
+            <li align="left">
+                Introduced a new React UI library to engage with, with clean and intuitive design of user interfaces that fits for user stories and business logics.
+            </li>
+            <li align="left">
+                Improved report generation speed by 80% using a more flexible and compatible solution during MVP development phase.
+            </li>
+        </ul>
+    </p>
+    <p align="left"> User Support
+       <ul> 
+            <li align="left">
+                Works with DevOps vendor to deployed the web application from Dev to Prod environment with AWS EKS and OCP.
+            </li>
+            <li align="left">
+                Supports ESG users in quering assets and issues when uploading locations.
+            </li>
+            <li align="left">
+                Swiftly deliver new ad-hoc report features and data request in agile sprints.
+            </li>
+            <li align="left">
+                Takes over the scrum master responsibilities of product management during the Lean Startup project phase to support product owners, sprint delivery and backlogs management.
+            </li>
+        </ul>
+    </p>
+
+img_sample:
+---
