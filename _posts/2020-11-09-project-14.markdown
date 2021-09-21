@@ -4,8 +4,8 @@ subtitle: API, Web Dev, Cloud
 layout: default
 modal-id: 14
 date: Mar 2021
-img: overview.png
-thumbnail: climateChangeRisk.jpg
+img: climateChangeRisk.jpg
+thumbnail: planet.jpg
 alt: image-alt
 project-date: Nov 2020
 client: None
