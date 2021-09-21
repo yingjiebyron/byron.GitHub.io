@@ -1,6 +1,6 @@
 ---
 title: Continuous Similarity in Artist Maps
-subtitle: network analysis, music intelligience, ML
+subtitle: network analysis, music intelligience
 layout: default
 modal-id: 4
 date: Jan 2020
